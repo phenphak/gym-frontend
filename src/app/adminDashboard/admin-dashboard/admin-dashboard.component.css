@@ -1,0 +1,43 @@
+
+.mat-tab-label {
+  min-width: 25px ;
+
+  padding: 5px;
+
+  background-color: transparent;
+  color: red;
+  font-weight: 700;
+}
+
+/* Styles for the active tab label */
+.mat-tab-label.mat-tab-label-active {
+  min-width: 25px;
+  padding: 5px;
+  background-color: transparent;
+  color: red;
+  font-weight: 700;
+}
+
+/* Styles for the ink bar */
+.mat-ink-bar {
+background-color: green;
+}
+
+.footer {
+  position:static;
+  padding-top: 20px;
+  margin-top: 10px;
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  color: black;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+}
+.footer button{
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
